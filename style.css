@@ -1,0 +1,314 @@
+/*스투스뜨*/
+
+*:focus { outline:none; }
+*{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	text-decoration: none;
+}
+#indexone{
+	background: #1d2760;
+}
+#indextwo{
+	background: #1d2760;
+}
+#index-game-one{
+	background: #c61c4d;
+}
+#index-game-two{
+	background: #e8bd0a;
+}
+#index-game-three{
+	background: #24aa90;
+}
+
+#qicon{
+	cursor: pointer;
+}
+.full-backgorund{
+	position: absolute;
+	height: 100%;
+	z-index: 10;
+	animation: back 1s forwards;
+	animation-delay: 1.8s;
+	visibility: visible;
+}
+@keyframes back {
+  from{opacity: 1;}
+  to{opacity: 0.0; visibility: hidden;}
+}
+
+.head-left-icons{
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+.head-right-icons{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+.pageboxes{
+	position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    height: 650px;
+    width: 1155px;
+    border: 10px solid white;
+    border-radius: 10px;
+    box-sizing: content-box;
+}
+
+/*아이콘(상단) 이미지*/
+.icon-tops{
+	height: 80px;
+}
+.icon-tops:hover{
+	opacity: 0.8;
+}
+
+
+/* 메이이이이인 페이지 --- 메이이이인 */
+#indexx{
+	position: absolute;
+	background-image: url(./main/img1/background-index.png);
+    background-size: cover;
+}
+
+.section-index-start{
+	position: absolute;
+	transform: translate(-50%,-50%);
+	top: 53%;
+	left: 50%;
+	height: 30px;
+	display: none;
+}
+.section-index-star{
+	position: absolute;
+	transform: translate(-50%,-50%);
+	top: 40%;
+	left: 50%;
+	height: 60px;
+}
+#star-icon{
+	background: pink;
+	height: 100px;
+	width: 100px;
+}
+.section-index-star-shine{
+	position: absolute;
+	transform: translate(-50%,-50%);
+	top: 40%;
+	left: 50%;
+	height: 240px;
+	z-index: -1;
+	animation: ro 1s infinite linear alternate;
+}
+
+@keyframes ro {
+  from{opacity: 1;}to{opacity: 0.4;}}
+
+
+
+ /*캐릭터,,, 그림자자자자*/
+.section-index-ju-shadow{
+	width: 10%;
+	position: absolute;
+	bottom: 35px;
+	left: 5%;
+}
+.section-index-pa-shadow{
+	width: 9%;
+	position: absolute;
+	bottom: 25px;
+	left: 15%;
+}
+.section-index-th-one-shadow{
+	width: 6%;
+	position: absolute;
+	right: 19%;
+	bottom: 40px;
+}
+.section-index-th-two-shadow{
+	width: 6%;
+	position: absolute;
+	right: 12%;
+	bottom: 45px;
+}
+.section-index-th-three-shadow{
+	width: 6%;
+	position: absolute;
+	right: 5%;
+	bottom: 40px;
+}
+#star-icon:hover + .section-index-start{
+	display: block;
+}
+
+.section-index-game:hover{
+	opacity: 0.8;
+}
+     /*게임클리리이잉*/
+#games{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 36%;
+  left: 50%;
+}
+#games-two{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 58%;
+  left: 50%;
+}
+
+.index-leftpadding{
+  padding-left: 5px;
+}
+
+
+.section-index-game{
+	width: 125px;
+}
+
+		/*인덱스투투투투투투우-텍스트,ㅇㅇ,응*/
+.section-index-ju-text{
+	position: absolute;
+	width: 175px;
+	bottom: 35%;
+	left: 4%;
+	display: none;
+}
+.section-index-pa-text{
+	position: absolute;
+	width: 175px;
+	bottom: 18%;
+	left: 14%;
+	display: none;
+}
+.section-index-th-text{
+	position: absolute;
+	width: 175px;
+	bottom: 19%;
+	right: 7%;
+	opacity: 1;
+	display: none;
+}
+
+.q-wrap{
+	width: 63%;
+    height: 47%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+    z-index: 1;
+}
+.indextwo-q{
+	width: 100%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	top: 50%;
+	left: 50%;
+}
+.indextwo-q-x{
+	height: 55px;
+	position: absolute;
+	top: 7%;
+	right: 4.5%;
+	cursor: pointer;
+}
+.indextwo-q-x:hover{
+	opacity: 0.8;
+}
+#qwrap{
+	visibility: hidden;
+	font-family: 'CookieRunOTF-Bold';
+	position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 45%;
+}
+
+/* 게임111 페이지 --- 숫자세기 */
+.numwrapli{
+  font-family: 'Binggrae';
+  font-size: 5em;
+  font-weight: bold;
+}
+.numwrapli div{
+  float: left;
+  margin-left: 48px;
+}
+#pageone{
+	position: absolute;
+	background-image: url(./game1/background-one.png);
+    background-size: cover;
+}
+
+#game-one-bottom{
+	position: absolute;
+	bottom: 0;
+	border-top: solid 5px white;
+	height: 90px;
+	width: 100%;
+	background: #cfd1b0;
+	overflow-x: hidden;
+    white-space: nowrap;
+}
+
+
+
+.numes{
+	height: 55px;
+	margin-left: 50px;
+	cursor: pointer;
+	opacity: 1;
+}
+
+.numeslast{
+	height: 55px;
+	margin-right: 50px;
+}
+
+.num-reds{
+	height: 75px;
+	display: none;
+}
+
+
+
+.texteess{
+	position: absolute;
+	height: 38px;
+	bottom: 35%;
+	right: 4%;
+	
+}
+
+#text11{
+	position: absolute;
+	height: 38px;
+	bottom: 17%;
+	right: 19.5%;	
+	display: none;
+}
+
+#text22{
+	position: absolute;
+	height: 38px;
+	bottom: 18%;
+	right: 12.5%;
+	display: none;	
+}
+
+#text33{
+	position: absolute;
+	height: 38px;
+	bottom: 17%;
+	right: 5.5%;	
+	display: none;
+}
